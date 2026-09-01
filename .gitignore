@@ -1,0 +1,15 @@
+# Dipendenze installate localmente
+node_modules/
+
+# Build generata con `npm run build`
+build/
+
+# File locali del sistema e degli editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Log npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
