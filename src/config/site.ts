@@ -6,5 +6,5 @@
  * anteprima presente nel progetto originale.
  */
 export const SITE_CONFIG = {
-  contactEmail: "",
+  contactEmail: "gc.websolutions26@gmail.com",
 } as const;
