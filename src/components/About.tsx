@@ -1,4 +1,9 @@
-import { MessagesSquare, ShieldCheck, Wrench } from "lucide-react";
+import {
+  ArrowUpRight,
+  MessagesSquare,
+  ShieldCheck,
+  Wrench,
+} from "lucide-react";
 
 /** Sezione di presentazione di GC Web Solutions. */
 export function About() {
@@ -45,6 +50,13 @@ export function About() {
               <Wrench aria-hidden="true" />
               Supporto nel tempo
             </span>
+          </div>
+
+          <div className="about-actions">
+            <a className="button button-primary" href="#/chi-siamo">
+              Conosciamoci
+              <ArrowUpRight aria-hidden="true" />
+            </a>
           </div>
         </div>
       </div>
